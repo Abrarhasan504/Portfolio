@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+.headbar {
+    color: #fff;
+    background-color: #01eaff;
+    width: 100%;
+    padding: 10px 50px;
+    position: fixed;
+    top: 0;
+    z-index: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: cursive;
+}
+
+/* INTRO */
+.introduction {
+    color: #fff;
+    padding: 100px 100px 40px;
+}
+
+.title {
+    opacity: 0.7;
+}
+
+.desss {
+    font-size: 22px;
+}
+
+/* DESCRIPTION */
+.DESCRIPTION {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 50px 100px;
+    color: #ccc;
+}
+
+.picture img {
+    width: 350px ;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #01eaff55;
+    transition: 0.3s;
+    margin-right: 500px;
+}
+
+.picture img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px #01eaffaa;
+}
+/* SKILLS */
+.skills {
+    padding: 50px 100px;
+}
+
+.skill_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.skill {
+    background: #111;
+    color: #01eaff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    background: #01eaff;
+    color: #000;
+}
+
+/* PROJECT SECTION */
+.project {
+    padding: 50px 100px;
+    background-color: #0a0a0a;
+    text-align: center;
+}
+
+.project_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+/* PROJECT CARD */
+.project_card {
+    background: #111;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #01eaff33;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/*  HOVER ANIMATION */
+.project_card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 0 25px #01eaff66;
+    border: 1px solid #01eaff;
+}
+
+/* TEXT */
+.project_card h2 {
+    color: #01eaff;
+    margin-bottom: 10px;
+}
+
+.project_card p {
+    color: #ccc;
+}
+
+/* CONTACT */
+.contact {
+    padding: 50px 100px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+.box {
+    flex: 1;
+    background: #111;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.box:hover {
+    background: #01eaff;
+    color: #000;
+}
+
+/* BUTTON */
+.cn {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #000;
+    color: #01eaff;
+    font-weight: bold;
+    transition: 0.3s;
+    
+}
+
+.cn:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* TITLES */
+.title2 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+ .title2{
+    text-align: center;
+ }
+ .container{
+    display: flex;
+    justify-content: center;
+ }
+ /* Button for contact */
+ .contactb {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #000;
+    color: #01eaff;
+    font-weight: bold;
+    transition: 0.3s;
+    
+
+ }
+
+ .contactb:hover{
+
+    cursor: pointer;
+    background-color: white;
+    color: #000;
+    border-radius: 10px;
+    font-weight: bold;
+ 
+
+ 
+
+    
+    
+
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+
+ /* to avoid hidding div with header */
+ #projects {
+    scroll-margin-top: 80px;
+}
+#skills {
+    scroll-margin-top: 80px    ; 
+}
+#projects {
+    scroll-margin-top: 80px; 
+}
+
+.footer{
+    padding: 30px 50px;
+    background-color: #0a0a0a;
+    text-align: center;
+    border-top: 2px solid #01eaff;
+    color: white;
+
+
+
+}
